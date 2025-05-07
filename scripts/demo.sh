@@ -5,7 +5,7 @@ OUTPUT_FOLDER=datas/results
 MODEL_FOLDER=datas/models
 VPOSER_FOLDER=datas/vposer/vposer_v1_0
 
-python1 smplifyx/main.py --config cfg_files/fit_smplx.yaml \
+python smplifyx/main.py --config cfg_files/fit_smplx.yaml \
     --data_folder $DATA_FOLDER \
     --output_folder $OUTPUT_FOLDER \
     --visualize=True \
